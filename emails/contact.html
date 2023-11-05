@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <body
+    style="
+      width: 100%;
+      font-family: Arial, Baskerville, sans-serif;
+      background-color: #e9eaef;
+      padding: 8px;
+      line-height: 1.5;
+    "
+  >
+    <div
+      style="
+        max-width: 500px;
+        margin: auto;
+        background-color: white;
+        border-radius: 15px;
+        padding: 15px 30px;
+      "
+    >
+      <div style="display: flex; width: 100%; border-bottom: 1px solid #e9eaef">
+        <img
+          src="https://res.cloudinary.com/dxfaqgawc/image/upload/v1678239092/Alvacus/mstile-144x144_ujcpkw.png"
+          style="height: 90px; width: 90px; margin: 0 auto"
+        />
+      </div>
+      <p style="font-size: 16px">Dear {{receiver}},</p>
+      <p style="font-size: 16px">
+        There is a contact message from the following user:
+      </p>
+      <p style="font-size: 16px"><strong>username</strong>: {{username}}</p>
+      <p style="font-size: 16px"><strong>email</strong>: {{email}}</p>
+      <p style="font-size: 16px">
+        <strong>subject</strong>:
+        <br />
+        {{subject}}
+      </p>
+      <p style="font-size: 16px">
+        <strong>message</strong>:
+        <br />
+        {{message}}
+      </p>
+    </div>
+  </body>
+</html>

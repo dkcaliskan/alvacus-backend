@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "controllers/**/*.ts",
+    "emails/**/*.html",
+    "middleware/**/*.ts",
+    "models/**/*.ts",
+    "routes/**/*.ts",
+    "utils/**/*.ts",
+    "los/**/*.ts",
+    "server.ts"
+  ],
+  "exclude": ["node_modules"],
+  "copyFiles": {
+    "include": ["emails/**/*.html"],
+    "exclude": ["**/*.ts"]
+  }
+}
