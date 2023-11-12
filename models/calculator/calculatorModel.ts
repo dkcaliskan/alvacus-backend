@@ -191,6 +191,12 @@ const CalculatorSchema = new Schema(
       required: true,
     },
 
+    isPublic: {
+      type: Boolean,
+      default: false,
+      required: true,
+    },
+
     inputSelects,
     savedUsers: [savedUsersSchema],
   },

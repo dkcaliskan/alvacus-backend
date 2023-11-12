@@ -75,6 +75,7 @@ const createCalc = asyncHandler(async (req, res, next) => {
     formulaVariables,
     isInfoMarkdown,
     info,
+    isPublic: false,
   });
 
   try {
